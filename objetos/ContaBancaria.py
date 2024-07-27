@@ -15,5 +15,5 @@ class ContaBancaria:
         self._saldo -= valor_de_saque
         print(f'Saldo disponível pós-saque: [>> {self._saldo} <<]')
 
-    def exibir_saldo(self) -> str:
+    def exibir_saldo(self):
         print(f'Saldo disponível na conta: [>> {self._saldo} <<]')
